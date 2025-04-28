@@ -1,0 +1,5 @@
+ruby-winrm-fs (1.3.5-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Joe <joe@rstrike.my.id>  Mon, 28 Apr 2025 12:51:50 -0400

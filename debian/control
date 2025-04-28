@@ -1,0 +1,26 @@
+Source: ruby-winrm-fs
+Section: unknown
+Priority: optional
+Maintainer: Joe <joe@rstrike.my.id>
+Rules-Requires-Root: no
+Build-Depends:
+ gem2deb,
+ ruby-erubi,
+ ruby-logging,
+ ruby-zip,
+ ruby-winrm,
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://github.com/WinRb/winrm-fs
+Vcs-Browser: https://github.com/hydra-ng/ruby-winrm-fs
+Vcs-Git: https://github.com/hydra-ng/ruby-winrm-fs.git
+
+Package: ruby-winrm-fs
+Architecture: any
+Multi-Arch: foreign
+Depends:
+ ruby,
+ ruby-winrm,
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description:  WinRM File Manager.
